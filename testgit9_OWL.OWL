@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<domain>noData</domain>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">COLLEGE_NONULL</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/COLLEGE_NONULL_UNIQUE_ROW_ID/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/COLLEGE_NONULL_UNIQUE_ROW_ID/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/COLLEGE_NONULL_UNIQUE_ROW_ID/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:LONG"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/COLLEGE_NONULL_UNIQUE_ROW_ID/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">COLLEGE_NONULL_UNIQUE_ROW_ID</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">ACT_CUM_75</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Adm_Rate</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Avg_Cost_Academic_Year</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Avg_Cost_Program_Year</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Avg_Fac_Sal</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/COLLEGE/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/COLLEGE/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/COLLEGE/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/COLLEGE/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">COLLEGE</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/City/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/City/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">City</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City_State/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/City_State/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City_State/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/City_State/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">City_State</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Compl_Repay_1yr_Rate</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Compl_Repay_7yr_Rate</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">CompletionRate_150_4</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">CompletionRate_150_L4</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Control/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Control/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Control/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Control/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Control</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Highest_Deg</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">In_state_Tuition</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Institution_Name/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Institution_Name/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Institution_Name/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Institution_Name/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Institution_Name</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Lat/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Lat/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Lat/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Lat/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Lat</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Level_of_institution</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Locale/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Locale/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Locale/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Locale/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Locale</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Long/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Long/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Long/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Long/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Long</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Low_Inc_Aid</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Main_Campus/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Main_Campus/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Main_Campus/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Main_Campus/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Main_Campus</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Noncom_Repay_1yr_Rate</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Noncom_Repay_7yr_Rate</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Out_of_state_Tuition</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Parent_Ed_HS</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Parent_Ed_MS</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Parent_Ed_PS</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_2OrMore</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_AIAN</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_Asian</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Black/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Black/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Black/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Black/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_Black</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Female/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Female/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Female/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Female/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_Female</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_First_Gen</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_Full_time_Fac</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_Hisp</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Male/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Male/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Male/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Male/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_Male</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_NHPI</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_NRA</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_Part_time</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_UNKN</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_Veterans</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_White/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_White/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_White/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_White/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Percent_White</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Predominant_Ugrad_Deg</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Religious_Affiliation</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">RetentionRate_FT4</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">RetentionRate_FTL4</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">RetentionRate_PT4</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">RetentionRate_PTL4</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">SAT_M_75</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">SAT_R_75</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">SAT_W_75</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/State/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/State/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/State/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/State/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">State</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:DATE"/>
+	<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:yyyy-MM-dd"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">TIV_Approval_Date</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Top3Majors/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Top3Majors/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Top3Majors/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Top3Majors/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Top3Majors</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/URL/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/URL/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/URL/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/URL/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">URL</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Undergrad_Enrollment</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Zip/COLLEGE_NONULL">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_NONULL">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Zip/COLLEGE_NONULL"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Zip/COLLEGE_NONULL">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Zip/COLLEGE_NONULL"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Zip</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:09:13 12:21:25</TIME>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/COLLEGE_NONULL_UNIQUE_ROW_ID/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2662</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">24</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1440</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2559</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2213</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/COLLEGE/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2662</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1494</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City_State/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1721</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2146</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1888</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1508</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">747</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Control/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2237</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Institution_Name/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2662</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Lat/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2657</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Locale/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">12</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Long/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2657</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2403</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Main_Campus/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2203</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2023</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2276</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1902</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1881</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2324</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">736</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">339</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">942</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Black/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1699</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Female/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2369</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2324</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1844</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1647</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Male/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2052</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">178</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">861</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2057</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">956</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">968</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_White/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2227</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">58</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1382</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">724</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">340</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">642</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">100</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">103</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">80</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/State/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">54</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">908</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Top3Majors/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2654</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/URL/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2588</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2267</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Zip/COLLEGE_NONULL">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2601</UNIQUE>
+</rdf:Description>
+
+</rdf:RDF>
